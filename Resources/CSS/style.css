@@ -1,12 +1,22 @@
-.container {
-    color: hsl(233, 47%, 7%);
+.flex-container {
+    background-color: hsl(233, 47%, 7%);
+    width: 1440px; 
+    height: 800px;
+    position: relative;
+    
 }
 
 .card-content {
-    color: hsl(244, 38%, 16%);
+    background-color: hsl(244, 38%, 16%);
+    text-align: center; /* Center all elements */
+    position: absolute;
+    width: 1110px;
+    height: 446px;
+    top: 50%;
+    bottom: 50%;
 }
 
-.accent-word {
+#accent-word {
     color: hsl(277, 64%, 61%);
 }
 
@@ -14,6 +24,20 @@ h1, .stats {
     color: hsl(0, 0%, 100%);
 }
 
-.business-description {
-    color: 
+#business-description {
+    color: hsla(0, 0%, 100%, 0.75);
+    display: inline-block;
+    text-align: left;
+}
+
+.stats-description {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+}
+
+.right-card {
+
 }
